@@ -1,0 +1,7 @@
+name: pinto_example_collection_reflection
+type: module
+core_version_requirement: '>=10'
+php: 8.3
+package: System
+dependencies:
+  - pinto:pinto

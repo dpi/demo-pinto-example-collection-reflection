@@ -1,0 +1,12 @@
+.pinto_example_collection_reflection-layout {
+   display: flex;
+   border: 2px solid red;
+   gap: 2px;
+   padding: 2px;
+   margin: 1em;
+ }
+.pinto_example_collection_reflection-layout .slot {
+  flex: 1;
+  border: 2px dotted orange;
+  padding: 2em;
+}

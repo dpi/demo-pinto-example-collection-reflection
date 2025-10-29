@@ -1,0 +1,8 @@
+services:
+  _defaults:
+    autoconfigure: true
+    autowire: true
+    public: true
+
+  Drupal\pinto_example_collection_reflection\Layouts: ~
+  Drupal\pinto_example_collection_reflection\LayoutDefinitions: ~
