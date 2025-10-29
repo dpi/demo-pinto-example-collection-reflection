@@ -1,0 +1,29 @@
+{
+    "name": "dpi/demo-pinto-example-collection-reflection",
+    "type": "library",
+    "require": {
+        "good-php/reflection": "^2.5",
+        "ramsey/collection": "^2.1",
+        "drupal/core": "^11.2",
+        "drupal/pinto": "^0.5.2",
+        "drupal/pinto_layout": "@beta"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "license": "Unlicense",
+    "authors": [
+        {
+            "name": "dpi",
+            "email": "pro@danielph.in"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
